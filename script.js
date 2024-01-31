@@ -62,7 +62,7 @@ const cpf = new ValidaCPF('070.987.720-03')
 if(cpf.valida()){
     console.log('CPF Válido')
 } else{
- ('CPF Inválido')
+    console.log('CPF Inválido')
 }
     
 
